@@ -2,6 +2,8 @@
     display: flex;
     justify-content: right;
 flex-direction: column;
+height: auto;
+width: 700px;
 
 }
 
@@ -15,10 +17,28 @@ flex-direction: column;
 body {
     background-image: url("../img/bw.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+
 }
 
 .text-size{
-    font-size: 100px;
+    font-size: 120px;
+    color: white;
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.tsize{
+    font-size: 30px;
+    color: white;
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: lighter;
+  font-style: normal;
+}
+button {
+    background-color: rgb(43, 138, 138);
     color: white;
 }
